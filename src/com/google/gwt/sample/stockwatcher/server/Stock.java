@@ -23,6 +23,7 @@ public class Stock {
 
   public Stock() {
     this.createDate = new Date();
+    
   }
 
   public Stock(User user, String symbol) {
