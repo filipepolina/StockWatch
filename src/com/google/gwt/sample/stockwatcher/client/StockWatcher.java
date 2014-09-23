@@ -42,7 +42,11 @@ public class StockWatcher implements EntryPoint {
 	private Label errorMsgLabel = new Label();
 	private LoginInfo loginInfo = null;
 	private VerticalPanel loginPanel = new VerticalPanel();
+//<<<<<<< HEAD
 	private Label loginLabel = new Label("Please sign innnn to your Google Account to access the StockWatcher application.");
+//=======
+	//private Label loginLabel = new Label("Please sign in to your Google Account.");
+//>>>>>>> cf8a09438fc3fe8d496de515f52b439e555a3f0e
 	private Anchor signInLink = new Anchor("Sign in");
 	private Anchor signOutLink = new Anchor("Sign out");
 	private final StockServiceAsync stockService = GWT.create(StockService.class);
